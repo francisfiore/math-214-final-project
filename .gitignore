@@ -6,3 +6,5 @@ bin
 pip-selfcheck.json
 pyvenv.cfg
 *.jpeg
+*.jpg
+*.png

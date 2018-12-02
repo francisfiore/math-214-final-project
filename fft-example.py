@@ -8,8 +8,11 @@ import os
 
 im = imread("neri.jpeg", as_gray=True)
 trans = np.fft.fft2(im)
-trans = np.log10(abs(trans)); 
-plt.imshow(trans);
+plt.imshow(np.log10(abs(trans)));
+plt.show()
+
+neri = np.fft.ifft2(trans)
+plt.imshow(abs(neri));
 plt.show()
 
 sys.exit()
