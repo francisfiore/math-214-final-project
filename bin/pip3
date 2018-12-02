@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/francisfiore/Desktop/Files/Michigan/Fall 2018/MATH 214/math-214-final-project/bin/python3.7" "$0" "$@"
+'''exec' "/Users/francisfiore/Desktop/Files/Michigan/Fall 2018/MATH 214/math-214-final-project/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

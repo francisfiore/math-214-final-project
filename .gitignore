@@ -3,3 +3,5 @@
 lib
 include
 bin
+pip-selfcheck.json
+pyvenv.cfg
